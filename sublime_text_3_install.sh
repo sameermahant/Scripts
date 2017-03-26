@@ -70,7 +70,7 @@ cat > "/usr/share/applications/sublime-text-3.desktop" <<EOF
 [Desktop Entry]
 Name=Sublime Text 3
 Comment=Edit text files
-Exec=/opt/sublime_text_3/sublime_text
+Exec=/opt/sublime_text_3/sublime_text %U
 Icon=/opt/sublime_text_3/Icon/128x128/sublime-text.png
 Terminal=false
 Type=Application
