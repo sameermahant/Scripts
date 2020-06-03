@@ -34,4 +34,6 @@ rm -rf /opt/VSCode-linux-x64 || true
 echo "Setting up new version ..."
 mv VSCode-linux-x64 /opt/
 
+rm -rf "${TEMPORARY_OUTPUT_FILE_LOCATION}"
+
 echo "Done."
