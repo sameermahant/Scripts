@@ -45,7 +45,7 @@ if [ -d "/opt/sublime_text_3/" ]; then
 	fi
 fi
 
-SUBLIME_TEXT_VERSION=3126
+SUBLIME_TEXT_VERSION=3211
 SUBLIME_TEXT_TARBALL_URL="https://download.sublimetext.com/sublime_text_3_build_${SUBLIME_TEXT_VERSION}_x64.tar.bz2"
 
 if [ -f "/tmp/sublime_text_3_build_${SUBLIME_TEXT_VERSION}_x64.tar.bz2" ]; then
